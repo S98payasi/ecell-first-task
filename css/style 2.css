@@ -1,0 +1,64 @@
+
+.header{background-color: rgb(139, 81, 180);
+    border:2px solid grey;
+    border-radius: 1cm;}
+    H1{ font-family:'Fuzzy Bubbles', 'cursive';
+color:chartreuse;
+margin-top: 1cm;height: 50px;
+font-weight: bold;}
+.vedios{list-style: none;
+    background-color: yellowgreen;
+    width: 7cm;
+    border:tomato;
+    border-radius: 2cm;
+}
+.ACTIVE{
+    display: inline-block;
+    background-color: rgb(119, 21, 119);
+    border: whitesmoke;
+    border-radius: 1cm;
+    width: 3cm;
+    height: 1cm;
+    align-items: center;
+    font-weight: bold;
+    
+}
+H3{
+    color: rgb(202, 209, 173);
+    font-weight: bold;
+    background-color: tomato;
+    width:10cm;
+}
+.LINK1{
+    font-size:20PX;
+    color: rgb(206, 255, 71);
+      color:chartreuse ;
+      width: 5cm;
+      text-decoration:none;
+}
+.booklist{
+    list-style: none;
+    background-color: yellowgreen;
+    width: 7cm;
+    border:tomato;
+    border-radius: 2cm;
+    font-size: 20px;
+
+}
+.review {
+     font-size: larger;
+    color: rgb(143, 9, 20);
+
+}
+.comments{font-family:'Fuzzy Bubbles', 'cursive';
+font-weight: bold;
+font-size: larger;}
+.footer{
+    background-color: rgb(139, 81, 180);
+}
+.footer2{background-color: violet;
+    width: 5cm;
+border: tomato;
+border-radius: 2cm;}
+
+

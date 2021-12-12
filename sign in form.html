@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/my first college project/css/submit.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+    <style>
+        body{
+           background-image: url(imges/tech5.jpg);
+          }
+          .page-header{
+              text-align: center;
+              font-family: 'Fuzzy Bubbles', 'cursive';
+              font-style: normal;
+              font-size: x-large;
+              color: rgb(71, 35, 10);
+              background-image: url(imges/tech5.jpg);
+              height: 110px;
+              width: 1000px;
+              padding-left: 180px;
+              padding-right:170px;
+              border: 2px solid red;
+              
+
+          }
+          .heading-2{text-align: center;
+              font-family: 'Fuzzy Bubbles', 'cursive';
+              font-style: normal;
+              font-size: x-large;
+              color: yellowgreen;
+              background-color: rgb(173, 43, 69);
+              font-size:x-large;
+              border: 2px solid goldenrod;
+            }
+            #studentname{
+                color:rgb(40, 12, 141);
+                font-family: 'Fuzzy Bubbles', 'cursive';
+              font-style: normal;
+              border:2px solid rgb(10, 70, 33)
+             
+            }
+            .form1{
+                background-color: rgb(201, 136, 201);
+                border: 2px solid red;
+            }
+           INPUT[TYPE= "text"],INPUT[TYPE="NUMBER"],input[TYPE="EMAIL"],textarea,SELECT{
+               width: 75%;
+               padding: 6px;
+               border: 3px green;
+               border-radius: 2px;
+              font-family: 'Fuzzy Bubbles', 'cursive';
+              font-size: large;
+              color: blue;
+           }
+            }
+             
+    </style>
+</head>
+<body >
+    <header class="page-header">
+        <h1> programming hub</h1>
+    </header>
+    <h2 class="heading-2">sign-in form</h2>
+    <form class="form1">
+     <div> <b> NAME: <input type="text" name="learner name" id="studentname"></b></div><br>
+       <div > <b>FATHERS NAME: <input class ="fathersname"  type="text" name="FATHERS NAME" id="FATHERSNAME"required></b>
+    </div><BR>
+      <div>ADDRESS: <input  class ="address" type="text" name="address" id="completeaddress"required> </div><br>
+       <div>GENDER: <input type="radio" name="gender" id="gender1">MALE <input type="radio" name="gender" id="gender2">FEMALE</div><BR>
+      <div>EMAIL ID: <input type="email" name="emali id" id="email"required></div><br>
+  <div>
+       SELECT YOUR EDUCATION: <select class="options">
+    <CENTER> <option>--EDUCATION--</option></CENTER>
+          <option>10th to 12th</option>
+          <option>B.tech</option>
+          <option>OTHERS</option>
+          </select> </div><BR>
+          <DIV >
+              WRITE YOUR ABILITES: <textarea class="textarea" name="text" id="" cols="30" rows="5" style="color: blue;"></textarea>
+          </DIV><BR>
+          <center><input class=submit type="submit" value="submit"></center><br>
+        <center>  
+        <input  class="reset"type="reset" value="reset" width="20px"</center> 
+    </form>
+    
+</body>
+</html>
